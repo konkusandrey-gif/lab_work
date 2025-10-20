@@ -16,7 +16,7 @@ const cities = ['Paris', 'Rome', 'Madrid', 'Lisbon'];
 removeElement(cities, 'Madrid');
 removeElement(cities, 'Berlin'); // нет в массиве 
 console.log(cities);
-// ➜ ['Paris', 'Rome', 'Lisbon']
+//  ['Paris', 'Rome', 'Lisbon']
 
 
 // 2️ 
@@ -34,13 +34,13 @@ function removeElements(array, ...items) {
 const products = ['apple', 'banana', 'orange', 'kiwi', 'banana'];
 removeElements(products, 'banana', 'kiwi');
 console.log(products);
-// ➜ ['apple', 'orange']
+//  ['apple', 'orange']
 
 
 const digits = [5, 7, 9, 5, 1, 9, 3];
 removeElements(digits, 5, 9);
 console.log(digits);
-// ➜ [7, 1, 3]
+//  [7, 1, 3]
 
 
 // 3️ 
@@ -52,11 +52,11 @@ function unique(array) {
 const colors = ['red', 'blue', 'red', 'green', 'blue'];
 const uniqueColors = unique(colors);
 console.log(uniqueColors);
-// ➜ ['red', 'blue', 'green']
+//  ['red', 'blue', 'green']
 
 const animals = ['cat', 'dog', 'cat', 'bird', 'dog'];
 console.log(unique(animals));
-// ➜ ['cat', 'dog', 'bird']
+//  ['cat', 'dog', 'bird']
 
 
 // 4️ 
@@ -76,3 +76,4 @@ const teamB = ['Bob', 'Diana'];
 const result2 = difference(teamA, teamB);
 console.log(result2);
 // ['Alice', 'Charlie']
+
